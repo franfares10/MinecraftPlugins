@@ -1,0 +1,8 @@
+Config:
+    mensaje-bienvenida: "true"
+    mensaje-bienvenida-texto:
+    - "-------------------------------"
+    - "Welcome to the Server %player%"
+    - "  Un Servidor bien Peronista"
+    - "-------------------------------"
+

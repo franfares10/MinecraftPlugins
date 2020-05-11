@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Plugins3:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Plugins3_jar</output-path>
+    <root id="archive" name="Plugins3.jar">
+      <element id="module-output" name="Plugins3" />
+      <element id="extracted-dir" path="E:/Plugins/Server/spigot-1.15.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

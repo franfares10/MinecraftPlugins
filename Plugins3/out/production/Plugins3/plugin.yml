@@ -1,0 +1,14 @@
+main: MainPlugin
+name: Teleport
+version: 1.0.1
+author: [FranFares]
+commands:
+  tpplayer:
+    description: tp to some location
+    usage: /<tpplayer>
+  kills:
+    description: how much zombies have u killed
+    usage: /<kills>
+  full:
+    description: inventory full of diamond
+    usage: /<full>
