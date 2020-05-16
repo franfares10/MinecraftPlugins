@@ -50,6 +50,7 @@ public class ShootListener implements Listener {
         Vector vector = l.getDirection().multiply(0.35);
         for ( int i = 0; i < 40 ; i++){
             Location actual = l.add(vector);
+            player.getWorld().spawnParticle(Particle.FLAME,actual,0,0,0,0,1);
             if( actual.getBlock()!=null){
                 Block block = actual.getBlock();
                 if(block.getType().equals(Material.AIR)){
@@ -67,7 +68,7 @@ public class ShootListener implements Listener {
                             }
                             if( e instanceof Player){
                                 if(player.getName().equals(e.getName())){
-                                    player.sendMessage(ChatColor.DARK_RED+"You´ve shooted youself asshole");
+                                    continue;
                                 }
                             }
                             player.getWorld().playEffect(actual, Effect.FIREWORK_SHOOT,5);
