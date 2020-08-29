@@ -1,0 +1,9 @@
+main: Main
+name: Teleport
+version: 1.0.1
+author: [FranFares]
+commands:
+    giveMeAnArrow:
+      description: it gives you an arrow
+      usage: /<givemeanarrow>
+

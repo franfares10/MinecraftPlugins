@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ShootPlugin:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ShootPlugin_jar</output-path>
+    <root id="archive" name="ShootPlugin.jar">
+      <element id="module-output" name="ShootPlugin" />
+      <element id="extracted-dir" path="E:/Plugins/Server/spigot-1.15.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
